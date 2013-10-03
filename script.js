@@ -60,7 +60,7 @@ function calculateLoan(){
 	var borrowTime = parseInt(document.getElementById('borrowTime').value);
 	
 	// We need at least 50% interest - i want a new hot tub
-	var interestRate = 50;
+	var interestRate = 50/100;
 	var monthlyInterestRate = interestRate / 12;
 	
 	var totalMessage = '';
